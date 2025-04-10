@@ -1,0 +1,5 @@
+"""
+NIM/NAMA   : 19624034/GN
+TANGGAL    : 31/10/2024
+DESKRIPSI  :
+"""
