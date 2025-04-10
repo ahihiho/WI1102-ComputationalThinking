@@ -19,3 +19,6 @@ if peng > kom:
   print('Adik Tuan Leo memilih uang Peng.')
 else: # uang Kom > uang Peng
   print('Adik Tuan Leo memilih uang Kom.')
+
+
+#SEMANGAT 
