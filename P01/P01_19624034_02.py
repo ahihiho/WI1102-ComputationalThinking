@@ -25,5 +25,5 @@ if ((a1 != a2 and a1 != a3 and a1 != a4 and a2 != a3 and a2 != a4 and a3 != a4) 
   else: # bilangan unik
     print("Bilangan tersebut adalah bilangan Unik.")
 else: # tidak memenuhi kriteria (bilangan biasa)
-print("Bilangan tersebut adalah bilangan Biasa.")
+  print("Bilangan tersebut adalah bilangan Biasa.")
       
