@@ -21,9 +21,9 @@ a4 = bil % 10         # digit ke-4 (satuan)
 # menentukan apakah memenuhi kriteria bilangan unik
 if ((a1 != a2 and a1 != a3 and a1 != a4 and a2 != a3 and a2 != a4 and a3 != a4) and (a1 + a2 + a3 + a4) % 2 == 1): 
   if (a1 > a4 and bil % 2 == 0) or (a1 > a4 and a2 + a3 > a1) or (bil % 2 == 0 and a2 + a3 > a1): # menentukan apakah memenuhi kriteria super unik
-    print("Bilangan tersebut adalah bilangan Super Unik.)
+    print("Bilangan tersebut adalah bilangan Super Unik.")
   else: # bilangan unik
-    print("Bilangan tersebut adalah bilangan Unik.)
+    print("Bilangan tersebut adalah bilangan Unik.")
 else: # tidak memenuhi kriteria (bilangan biasa)
-print("Bilangan tersebut adalah bilangan Biasa.)
+print("Bilangan tersebut adalah bilangan Biasa.")
       
