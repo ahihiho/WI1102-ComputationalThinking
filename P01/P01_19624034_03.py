@@ -40,3 +40,5 @@ if(cM >= 0 and cB >= 0 and cU > bahanU): # Semua bahan cukup
   print("Pesanan dapat diterima oleh Nona Sal")
 else:
   print("Pesanan tidak dapat diterima oleh Nona Sal")
+
+#Selesai :D
