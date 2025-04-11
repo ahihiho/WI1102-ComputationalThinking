@@ -1,7 +1,7 @@
 """
 NIM/NAMA   : 19624034/GN
 TANGGAL    : 17/10/2024
-DESKRIPSI  : program menentukan nilai tukar terbesar
+DESKRIPSI  : Program menentukan nilai tukar terbesar
 """
 
 #KAMUS
