@@ -24,15 +24,15 @@ cM -= bahanM # menentukan sisa clay merah
 cB -= bahanB # menentukan sisa clay biru
 
 # tanpa menggunakan loop hitung jumlah clay ungu yang dapat dibuat
-if (cM > cB and bahanU != 0): # jika bahan biru lebih sedikit kurangi dengan biru
+if (cM > cB and bahanU != 0): # jika bahan biru lebih sedikit, kurangi dengan biru
   cM -= cB
   cU += cB*2
   cB -= cB
-elif (cM < cB and bahanU != 0): # jika bahan merah lebih sedikit kurangi dengan merah
+elif (cM < cB and bahanU != 0): # jika bahan merah lebih sedikit, kurangi dengan merah
   cB -= cM 
   cU += cM*2
   cM -= cM
-else: # tidak mengubah nilai
+else: # tidak membutuhkan ungu
   cM = cM
   cB = cB
   
