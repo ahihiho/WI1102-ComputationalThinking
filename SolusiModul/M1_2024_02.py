@@ -1,4 +1,4 @@
-#DESKRIPSI : Program memastikan apakah Tuan Riz berhasil menyelesaikan soal atau tidak
+#DESKRIPSI : Program mmenentukan apakah Tuan Riz berhasil menyelesaikan soal atau tidak
 
 #KAMUS
 # isian, esai, sisaIsian, sisaEsai, total : integer
