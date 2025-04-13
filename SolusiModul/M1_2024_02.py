@@ -16,3 +16,5 @@ if (total < 60):
   print("Tuan Riz akan berhasil mengerjakan semua soal")
 else:
   print("Tuan Riz tidak berhasil mengerjakan semua soal tepat waktu")
+
+#Selesai :D
