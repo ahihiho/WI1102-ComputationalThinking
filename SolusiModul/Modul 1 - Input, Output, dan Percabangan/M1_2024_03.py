@@ -1,7 +1,7 @@
 #DESKRIPSI : Program menentukan bilangan bravo atau biasa
 
 #KAMUS
-# n, d1, d2, d3, d4 : integer
+# n, d1, d2, d3, d4, sum : integer
 
 #ALGORITMA
 ##input
@@ -12,11 +12,11 @@ d1 = n // 1000      # digit pertama
 d2 = n // 100 % 10  # digit kedua 
 d3 = n // 10 % 10   # digit ketiga
 d4 = n % 10         # digit keempat
-sum = d1 + d2 + d3 + d4
+sum = d1 + d2 + d3 + d4 # jumlah keempat digit
 
 if (sum % d1 == 0 and sum % d2 == 0 and sum % d3 == 0 and sum % d4 == 0 ):
   print("Bilangan tersebut adalah bilangan Bravo.")
-else:
+else: # jumlah keempat digit tidak habis dibagi
   print("Bilangan tersebut adalah bilangan Biasa.")
 
 #Selesai :D
