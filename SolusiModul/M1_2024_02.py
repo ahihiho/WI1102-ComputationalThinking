@@ -12,7 +12,7 @@ sisaEsai   = (2 - esai) * 20
 total  = sisaIsian + sisaEsai 
 
 ##proses + output
-if (total < 60):
+if (total <= 60):
   print("Tuan Riz akan berhasil mengerjakan semua soal")
 else:
   print("Tuan Riz tidak berhasil mengerjakan semua soal tepat waktu")
