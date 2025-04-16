@@ -1,5 +1,5 @@
 """
-NIM/Nama   : 19624034/Ghaisan Nufail
+NIM/Nama   : 19624034/GN
 Tanggal    : 31/10/2024
 Deskripsi  : Mencari banyak angka yang dapat dibagi oleh satuannya
 """
