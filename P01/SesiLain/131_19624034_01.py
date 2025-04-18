@@ -1,6 +1,6 @@
 """
 NIM/NAMA   : 19624034/GN
-TANGGAL    : 17/10/2024
+TANGGAL    : 14/10/2024
 DESKRIPSI  : program menentukan status nilai akhir
 """
 
