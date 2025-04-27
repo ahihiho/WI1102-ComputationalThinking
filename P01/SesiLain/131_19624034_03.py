@@ -17,3 +17,10 @@ ukurH = int(input("Ukuran barang hijau (unit): "))  #
 ukurU = int(input("Ukuran barang ungu (unit): "))   # 
 
 ##proses
+totalO = o * ukurO
+totalH = h * ukurH
+totalU = u * ukurU
+
+if (totalO > 30):
+  o = totalO % 2 + totalO // 2
+  totalO = o * ukurO
