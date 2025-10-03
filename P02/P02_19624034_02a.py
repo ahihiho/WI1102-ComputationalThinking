@@ -6,14 +6,14 @@ Deskripsi  : Mengubah pesan biasa menjadi rahasia
 
 #KAMUS
 # n  : integer
-# biasa, rahasia : list of character
+# biasa, rahasia : array of character
 # pesan, pesanRahasia : string
 
 #ALGORITMA
 ##input
 n       = int (input("Masukkan jumlah huruf pada kamus rahasia: ")) # input banyaknya huruf yang ingin diubah
-biasa   = [""] * n # list yang akan menyimpan huruf biasa (berukuran n)
-rahasia = [""] * n # list yang akan menyimpan huruf rahasia (berukuran n)
+biasa   = [""] * n # array yang akan menyimpan huruf biasa (berukuran n)
+rahasia = [""] * n # array yang akan menyimpan huruf rahasia (berukuran n)
 
 ##proses 
 for i in range(n):
@@ -31,7 +31,7 @@ for huruf in pesan: # loop yang membaca tiap character dalam string pesan
         if huruf == biasa[i]: # jika char sama dengan huruf biasa
             pesanRahasia += rahasia[i] # huruf rahasia akan ditambah ke string pesanRahasia
             break # exit loop
-    else: # huruf not equal dengan list huruf biasa
+    else: # huruf not equal dengan array huruf biasa
         pesanRahasia += huruf
 
 ##output
