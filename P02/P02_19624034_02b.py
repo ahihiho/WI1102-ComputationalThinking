@@ -6,22 +6,22 @@ Deskripsi  : Mengubah pesan biasa menjadi rahasia *menggunakan append*
 
 #KAMUS
 # n  : integer
-# biasa, rahasia : list of character
+# biasa, rahasia : array of character
 # pesan, pesanRahasia : string
 
 #ALGORITMA
 ##input
 n       = int (input("Masukkan jumlah huruf pada kamus rahasia: ")) # input banyaknya huruf yang ingin diubah
-biasa   = [] # list yang akan menyimpan huruf biasa
-rahasia = [] # list yang akan menyimpan huruf rahasia
+biasa   = [] # array yang akan menyimpan huruf biasa
+rahasia = [] # array yang akan menyimpan huruf rahasia
 
 ##proses 
 for i in range(n):
     b = input(f"Masukkan huruf biasa ke-{i+1}: ")
     r = input(f"Masukkan huruf rahasia ke-{i+1}: ")
     # append: digunakkan untuk memasukkan elemen kedalam list!
-    biasa.append(b)   # huruf biasa (b) dimasukkan ke list (biasa) 
-    rahasia.append(r) # huruf rahasia (r) dimasukkan ke list (rahasia)
+    biasa.append(b)   # huruf biasa (b) dimasukkan ke array (biasa) 
+    rahasia.append(r) # huruf rahasia (r) dimasukkan ke array (rahasia)
 
     
 pesan = input("Masukkan pesan yang ingin diubah: ") # input pesan
@@ -33,7 +33,7 @@ for huruf in pesan: # loop yang membaca tiap character dalam string pesan
         if huruf == biasa[i]: # jika char sama dengan huruf biasa
             pesanRahasia += rahasia[i] # huruf rahasia akan ditambah ke string pesanRahasia
             break # exit loop
-    else: # huruf not equal dengan list huruf biasa
+    else: # huruf not equal dengan array huruf biasa
         pesanRahasia += huruf
 
 ##output
