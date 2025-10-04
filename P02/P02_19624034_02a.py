@@ -20,8 +20,6 @@ for i in range(n):
     biasa[i] = input(f"Masukkan huruf biasa ke-{i+1}: ")
     rahasia[i] = input(f"Masukkan huruf rahasia ke-{i+1}: ")
     
-
-    
 pesan = input("Masukkan pesan yang ingin diubah: ") # input pesan
 
 ## proses enkripsi pesan
