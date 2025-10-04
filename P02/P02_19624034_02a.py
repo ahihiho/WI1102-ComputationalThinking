@@ -7,7 +7,7 @@ Deskripsi  : Mengubah pesan biasa menjadi rahasia
 #KAMUS
 # n  : integer
 # biasa, rahasia : array of character
-# pesan, pesanRahasia : string
+# pesan, pesan_rahasia : string
 
 #ALGORITMA
 ##input
@@ -25,16 +25,16 @@ for i in range(n):
 pesan = input("Masukkan pesan yang ingin diubah: ") # input pesan
 
 ## proses enkripsi pesan
-pesanRahasia = "" # variable string kosong untuk menampung hasil pesan rahasia
+pesan_rahasia = "" # variable string kosong untuk menampung hasil pesan rahasia
 for huruf in pesan: # loop yang membaca tiap character dalam string pesan
     for i in range(n):
         if huruf == biasa[i]: # jika char sama dengan huruf biasa
-            pesanRahasia += rahasia[i] # huruf rahasia akan ditambah ke string pesanRahasia
+            pesan_rahasia += rahasia[i] # huruf rahasia akan ditambah ke string pesanRahasia
             break # exit loop
     else: # huruf not equal dengan array huruf biasa
-        pesanRahasia += huruf
+        pesan_rahasia += huruf
 
 ##output
-print(f"Pesan rahasia Nona Sal: \n{pesanRahasia}")
+print(f"Pesan rahasia Nona Sal: \n{pesan_rahasia}")
 
 #Selesai :D
