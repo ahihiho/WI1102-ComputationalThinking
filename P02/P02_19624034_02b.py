@@ -19,7 +19,7 @@ rahasia = [] # array yang akan menyimpan huruf rahasia
 for i in range(n):
     b = input(f"Masukkan huruf biasa ke-{i+1}: ")
     r = input(f"Masukkan huruf rahasia ke-{i+1}: ")
-    # append: digunakkan untuk memasukkan elemen kedalam list!
+    # append: digunakkan untuk memasukkan elemen kedalam array/list!
     biasa.append(b)   # huruf biasa (b) dimasukkan ke array (biasa) 
     rahasia.append(r) # huruf rahasia (r) dimasukkan ke array (rahasia)
 
