@@ -23,7 +23,6 @@ for i in range(n):
     biasa.append(b)   # huruf biasa (b) dimasukkan ke array (biasa) 
     rahasia.append(r) # huruf rahasia (r) dimasukkan ke array (rahasia)
 
-    
 pesan = input("Masukkan pesan yang ingin diubah: ") # input pesan
 
 ## proses enkripsi pesan
