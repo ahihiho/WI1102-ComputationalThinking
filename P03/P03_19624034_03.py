@@ -34,6 +34,8 @@ i = 0 # inisialisasi nilai putaran
 # loop selama jumlah array != nilai target
 while jumlah_arr(array_deb) != n and jumlah_arr(array_sal) != n:
     i += 1
+    if (jumlah_arr(array_sal)>n and jumlah_arr(array_deb)):
+        break
     x = input(f"Giliran {i} (tambah / tukar): ")
     y = int(input("Pada posisi kartu ke: "))
     if(x == "tambah"): # jika input tambah
@@ -49,7 +51,9 @@ while jumlah_arr(array_deb) != n and jumlah_arr(array_sal) != n:
 ##output
 if jumlah_arr(array_deb) == n: # jika Nona Deb mencapai target
     print("Nona Deb Memenangkan permainan.")
-else: # jika Nona Sal mencapai target
+elif jumlah_arr(array_sal) == n: # jika Nona Sal mencapai target
     print("Nona Sal Memenangkan permainan.")
+else: # apabila jumlah kedua kartu melewati target
+    print("Jumlah kartu melebihi target tidak ada pemenang.")
     
 #Selesai :D
