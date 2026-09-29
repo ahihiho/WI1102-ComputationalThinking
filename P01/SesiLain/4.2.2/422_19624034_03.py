@@ -17,7 +17,7 @@ p2    = int(input("Masukkan posisi angka kedua yang akan ditukar: "))
 
 ##proses + output
 #  tanpa menggunakan len
-if (int(harga) * 10 // 10**d <= 10) and (int(harga) * 10 // 10**d >= 1 ): # memastikan digit = harga (digit nol yang mendahului angka bukan nol = tidak dianggap)
+if (int(harga) * 10 // 10**d <= 10) and (int(harga) * 10 // 10**d >= 1 ): # memastikan jumlah digit = digit harga (dengan digit nol didepan angka bukan nol tidak dianggap)
     if p1 > p2: # memastikan bahwa p1 selalu lebih kecil dari p2 
         p1, p2 = p2, p1
     a = harga[p1-1]
