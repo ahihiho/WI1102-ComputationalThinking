@@ -21,8 +21,8 @@ hasil_kompres = ukuran_byte * ((100-rasio)/100) # sisa akhir kompresi gambar
 ukuran_mb = hasil_kompres / 1000000             # menghitung hasil akhir kompresi dalam Mb
 
 ##output
-print("ukuran file gambar setelah kompresi adalah %.2f MB" % ukuran_mb)
-# ALT1: print(f"ukuran file gambar setelah kompresi adalah {ukuran_mb : .2f} MB")
-# ALT2: print("ukuran file gambar setelah kompresi adalah " + str(round(ukuran_mb, 2)) + " MB")
+print("Ukuran file gambar setelah kompresi adalah %.2f MB" % ukuran_mb)
+# ALT1: print(f"Ukuran file gambar setelah kompresi adalah {ukuran_mb : .2f} MB")
+# ALT2: print("Ukuran file gambar setelah kompresi adalah " + str(round(ukuran_mb, 2)) + " MB")
 
 #Selesai :D
