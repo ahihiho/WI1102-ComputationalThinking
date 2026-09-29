@@ -21,7 +21,7 @@ total_o = o * ukur_o
 total_h = h * ukur_h
 total_u = u * ukur_u
 
-if (totalO > 30):
+if (total_o > 30):
   o = o % 2 + o // 2
   total_o = o * ukur_o
 
